@@ -1,0 +1,12 @@
+<div ng-app="word">
+ <div ng-view>
+  <h1> Listing words </h1>
+  <div ng-controller='WordIndexController'>
+    <ul ng-repeat="word in words">
+     <li> {{ word.image }} </li>
+    </ul>
+  </div>
+</div>
+</div>
+<%= link_to 'New Word', new_word_path %>
+

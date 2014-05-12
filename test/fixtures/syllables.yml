@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  character: MyString
+  ipa: MyString
+  soundfile: MyString
+
+two:
+  character: MyString
+  ipa: MyString
+  soundfile: MyString

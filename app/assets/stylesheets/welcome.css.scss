@@ -1,0 +1,31 @@
+.word-container {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.image {
+  margin-top: 15px;
+}
+
+.word {
+  margin: auto;
+  padding: 10px;
+
+  .syllable {
+    display: inline-block;
+    font-size: 30px;
+
+    background: #16A085;
+    padding: 0px 5px;
+    color: #fff;
+    border-radius: 6px;
+
+    span {
+      opacity: 0.8;
+    }
+  }
+
+  .syllable:hover {
+    background: #1ABC9C;
+  }
+}
