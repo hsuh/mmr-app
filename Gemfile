@@ -34,6 +34,9 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+#For the project website
+gem 'github-pages'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
