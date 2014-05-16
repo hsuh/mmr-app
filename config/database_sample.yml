@@ -1,0 +1,24 @@
+#Below is postgre db sample template
+#You will have to create your own postgre db, username and password
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: mmr_app_development
+  pool: 5
+  timeout: 5000
+  username: yourname
+  password: yourpassword
+
+# Warning: The database defined as "test" will be erased and
+# re-generated from your development database when you run "rake".
+# Do not set this db to the same as development or production.
+#
+#You will need a postgre test db if you run rspec testings
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: mmr_app_test
+  pool: 5
+  timeout: 5000
+  username: yourname
+  password: yourpassword
