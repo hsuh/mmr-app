@@ -1,1 +1,4 @@
-json.extract! @word, :id, :created_at, :updated_at
+json.id @word.id
+json.image @word.image
+json.soundfile @word.soundfile
+json.syllables @word.syllables, :id, :character, :ipa

@@ -10,6 +10,7 @@ class WordsController < ApplicationController
   # GET /words/1
   # GET /words/1.json
   def show
+    #ToDo order the syllable by syllable position
   end
 
   # GET /words/new

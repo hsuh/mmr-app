@@ -1,1 +1,1 @@
-@word = angular.module('word', ['ngResource'])
+@word     = angular.module('word', ['ngResource'])
